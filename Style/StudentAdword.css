@@ -1,0 +1,71 @@
+body {
+  background-image: url('/StudentAword/Assets/image1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 50% 100%;
+}
+
+.container {
+  list-style-type: none;
+  margin-left:15%;
+  color: white;
+  font-family: bold;
+  font-size: large;
+  display: inline;
+    
+}
+
+.container1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content: flex-end;
+  margin-right:10%;
+}
+  
+.container1 li {
+  display: inline;
+  font-family: bold;
+  font-size: large;
+  color: black;
+  padding: 14px 16px;
+}
+
+h2 {  
+  margin-left:15%;
+  font-family: bold;
+  color: white;
+}
+
+h1 {
+  margin-left:15%;
+  font-family: bold;
+  color: rgb(234, 219, 14);
+}
+ 
+P {
+  font-family: bold;
+  margin-left:15%;
+  color: white;
+  font-size:large;
+ }
+    
+button{
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: rgb(245, 218, 16);
+  margin-left:15%;
+}
+.student{
+  position:absolute;
+  justify-content: flex-end;
+  top: 200px;
+  right: 160px;
+  z-index: 2;
+}
